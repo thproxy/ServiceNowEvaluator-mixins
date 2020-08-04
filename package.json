@@ -1,0 +1,24 @@
+{
+  "name": "@thproxy/servicenowevaluator-mixins",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thproxy/ServiceNowEvaluator-mixins",
+  "main": "src/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thproxy/ServiceNowEvaluator-mixins.git"
+  },
+  "dependencies": {
+    "@thproxy/servicenow-evaluator": "https://github.com/thproxy/ServiceNowEvaluator",
+    "form-data": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "prettier": "^2.0.5"
+  }
+}
