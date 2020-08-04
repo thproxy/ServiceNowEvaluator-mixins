@@ -8,10 +8,10 @@ const updateSetMixins = {
    * @returns an array of promises that resolve to streams
    */
   async getUpdateSetStreams(ids) {
-    return ids.map((id) => this.fetch(`${this.instance}/export_update_set.do?${new URLSearchParams({
+    return Promise.all(ids.map((id) => this.fetch(`${this.instance}/export_update_set.do?${new URLSearchParams({
       sysparm_sys_id: id,
       sysparm_delete_when_done: true,
-    })}`).then((res) => res.body));
+    })}`).then((res) => res.body)));
   },
 
   /**
