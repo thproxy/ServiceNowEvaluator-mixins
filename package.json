@@ -2,7 +2,7 @@
   "name": "@thproxy/servicenowevaluator-mixins",
   "version": "0.0.1",
   "homepage": "https://github.com/thproxy/ServiceNowEvaluator-mixins",
-  "main": "src/index.js",
+  "main": "src",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
